@@ -1,0 +1,9 @@
+{
+  "script" : "if [ $NOVA_TASK_NAME == \"build\" ]; then\n\tnpm run build\nfi\n\nif [ $NOVA_TASK_NAME == \"run\" ]; then\n\tnpm run watch\nfi\n",
+  "actions" : [
+    "build",
+    "run"
+  ],
+  "identifier" : "2261895D-89D1-4AD2-9B77-2E42E2F2A339",
+  "openLogOnRun" : "start"
+}

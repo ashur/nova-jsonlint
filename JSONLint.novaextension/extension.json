@@ -1,0 +1,19 @@
+{
+	"identifier": "ashur.JSONLint",
+	"name": "JSONLint",
+	"vendor": "Ashur Cabrera",
+	"description": "Check JSON files for syntax errors",
+	"version": "1.0",
+	"categories": ["formatters"],
+
+	"homepage": "https://dev.panic.com/ashur/nova-jsonlint",
+	"repository": "https://dev.panic.com/ashur/nova-jsonlint",
+	"bugs": "https://dev.panic.com/ashur/nova-jsonlint/issues",
+
+	"main": "main.dist.js",
+
+	"entitlements": {
+		"filesystem": "readonly",
+		"process": true
+	}
+}

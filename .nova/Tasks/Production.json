@@ -1,0 +1,8 @@
+{
+  "script" : "if [ $NOVA_TASK_NAME == \"build\" ]; then\n\tnpm run build:dist\nfi\n",
+  "actions" : [
+    "build"
+  ],
+  "identifier" : "8527A415-B85C-4DB3-B10E-46B09E4FC1D0",
+  "openLogOnRun" : "start"
+}
