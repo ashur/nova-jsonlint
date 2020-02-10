@@ -1,6 +1,6 @@
 {
   "name": "nova-jsonlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JSONLint extension for Nova",
   "repository": "https://dev.panic.com/ashur/nova-jsonlint",
   "scripts": {

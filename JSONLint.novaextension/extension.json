@@ -3,7 +3,7 @@
 	"name": "JSONLint",
 	"vendor": "Ashur Cabrera",
 	"description": "Check JSON files for syntax errors",
-	"version": "1.0",
+	"version": "1.0.1",
 	"categories": ["formatters"],
 
 	"homepage": "https://dev.panic.com/ashur/nova-jsonlint",
