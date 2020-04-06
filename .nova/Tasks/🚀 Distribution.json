@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npm run build:dist"
+    }
+  },
+  "identifier" : "5D9E9C2B-60C9-49AA-AE38-28EDD9ABECA9"
+}
