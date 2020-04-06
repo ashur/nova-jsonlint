@@ -8,5 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Changed extension category to `issues`
 
+### Removed
+- Redundant extension `homepage` property
+
 ### Dependencies
 - Updated to `nova-npm-executable@0.1.1`
