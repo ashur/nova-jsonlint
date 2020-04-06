@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx rollup -c",
     "build:dist": "npm run build && npm run clean",
-    "clean": "rm -r *.novaextension/node_modules",
+    "clean": "rm -rf ./*.novaextension/node_modules",
     "test:lint": "eslint *.novaextension/scripts/*.js",
     "watch": "onchange -i \"src/**/*.js\" \"*.novaextension/extension.json\" -- npm run build"
   },
