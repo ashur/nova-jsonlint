@@ -1,11 +1,12 @@
 {
   "name": "nova-jsonlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JSONLint extension for Nova",
   "repository": "https://dev.panic.com/ashur/nova-jsonlint",
   "scripts": {
-    "build": "npx rollup -c",
-    "build:dist": "npm run build && rm -r *.novaextension/node_modules",
+    "build": "rollup -c",
+    "build:dist": "npm run build && npm run clean",
+    "clean": "rm -rf ./*.novaextension/node_modules",
     "test:lint": "eslint *.novaextension/scripts/*.js",
     "watch": "onchange -i \"src/**/*.js\" \"*.novaextension/extension.json\" -- npm run build"
   },
@@ -23,7 +24,7 @@
   "dependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
-    "nova-npm-executable": "^0.1.0",
+    "nova-npm-executable": "^0.1.1",
     "rollup": "^1.29.1"
   }
 }
