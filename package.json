@@ -4,7 +4,7 @@
   "description": "A JSONLint extension for Nova",
   "repository": "https://dev.panic.com/ashur/nova-jsonlint",
   "scripts": {
-    "build": "npx rollup -c",
+    "build": "rollup -c",
     "build:dist": "npm run build && npm run clean",
     "clean": "rm -rf ./*.novaextension/node_modules",
     "test:lint": "eslint *.novaextension/scripts/*.js",
