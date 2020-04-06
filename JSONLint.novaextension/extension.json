@@ -4,7 +4,7 @@
 	"vendor": "Ashur Cabrera",
 	"description": "Check JSON files for syntax errors",
 	"version": "1.0.1",
-	"categories": ["formatters"],
+	"categories": ["issues"],
 
 	"homepage": "https://dev.panic.com/ashur/nova-jsonlint",
 	"repository": "https://dev.panic.com/ashur/nova-jsonlint",
