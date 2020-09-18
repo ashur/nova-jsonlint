@@ -1,4 +1,8 @@
-Check JSON files for syntax errors
+## Usage
+
+JSON files are automatically linted using [JSONLint](https://www.npmjs.com/package/jsonlint). Errors are reported in Nova’s **Issues** sidebar and editor gutter:
+
+![JSON file in Nova editor with missing trailing comma reported as an issue](https://dev.panic.com/ashur/nova-jsonlint/-/raw/main/JSONLint.novaextension/assets/example.png)
 
 ## Requirements
 
