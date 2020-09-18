@@ -1,3 +1,8 @@
+## Version 1.0.2
+
+- Added usage to README
+- Updated description
+
 ## Version 1.0.1
 
 - Improved performance for users running Nova 1.0b8 and newer
