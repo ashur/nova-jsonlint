@@ -1,6 +1,6 @@
 {
   "name": "nova-jsonlint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JSONLint extension for Nova",
   "repository": "https://dev.panic.com/ashur/nova-jsonlint",
   "scripts": {
@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-plugin-nova": "^1.0.0-beta.3",
+    "eslint-plugin-nova": "^1.0.0",
     "onchange": "^6.1.0"
   },
   "dependencies": {

@@ -2,8 +2,8 @@
 	"identifier": "ashur.JSONLint",
 	"name": "JSONLint",
 	"vendor": "Ashur Cabrera",
-	"description": "Check JSON files for syntax errors",
-	"version": "1.0.1",
+	"description": "Lint JSON files and report syntax errors in the Issues sidebar and editor gutter",
+	"version": "1.0.2",
 	"categories": ["issues"],
 
 	"repository": "https://dev.panic.com/ashur/nova-jsonlint",
