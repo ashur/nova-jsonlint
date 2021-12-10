@@ -6,8 +6,8 @@
 	"version": "1.0.2",
 	"categories": ["issues"],
 
-	"repository": "https://dev.panic.com/ashur/nova-jsonlint",
-	"bugs": "https://dev.panic.com/ashur/nova-jsonlint/issues",
+	"repository": "https://github.com/ashur/nova-jsonlint",
+	"bugs": "https://github.com/ashur/nova-jsonlint/issues",
 
 	"main": "main.dist.js",
 
