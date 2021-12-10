@@ -1,3 +1,7 @@
+## Unreleased
+### Changed
+- Moved extension to GitHub
+
 ## Version 1.0.2
 
 - Added usage to README
