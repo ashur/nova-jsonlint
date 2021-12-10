@@ -1,4 +1,4 @@
-## Unreleased
+## Version 1.0.3
 ### Changed
 - Moved extension to GitHub
 
